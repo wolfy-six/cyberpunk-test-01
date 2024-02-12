@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  @apply text-white;
+  @apply bg-[#0b090a];
+}
+section {
+  @apply w-full h-screen px-4;
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.yello__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fcf267 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
